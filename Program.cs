@@ -27,7 +27,7 @@ namespace pr6
                         int sum1 = (a / 100) % 10 + (a / 10) % 10 + a % 10;
                         Console.WriteLine(sum == sum1 ? "Билет является счастливым!" : "Билет не является счастливым."); // если сумма цифр первой половины билета равна сумме цифр второй половины, то билет считается счастливым
                         break;
-                    case false:
+                    default:
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("\nВведите шестизначное число!");
                         Console.ForegroundColor = ConsoleColor.Gray;
